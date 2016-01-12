@@ -22,9 +22,17 @@
   margin-bottom: auto;
 }
 
-.sidebar {
+.top {
   width: 100%;
   top:10%;
+  position: fixed;
+  display: block;
+  text-align: center;
+}
+
+.bottom {
+  width: 100%;
+  bottom:10%;
   position: fixed;
   display: block;
   text-align: center;
@@ -36,7 +44,7 @@
   font-family: Arial, sans-serif;
   color: #ffffff;
   font-style: normal;
-  font-size: 18pt;
+  font-size: 30pt;
   text-decoration: none;
 }
 
@@ -46,7 +54,7 @@
   font-family: Arial, sans-serif;
   color: #ffffff;
   font-style: normal;
-  font-size: 25pt;
+  font-size: 100pt;
   text-decoration: none;
 }
 
@@ -56,6 +64,6 @@
   font-family: Arial, sans-serif;
   color: #ffffff;
   font-style: italic;
-  font-size: 14pt;
+  font-size: 25pt;
   text-decoration: none;
 }
